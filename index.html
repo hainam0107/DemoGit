@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/0f02d3980d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="bg-miniCart">
+
+    </div>
+    <div class="banner-left banner-hv">
+        <img src="img/banner/unnamed.gif" width="105px" alt="">
+    </div>
+    <div class="banner-right banner-hv">
+        <img src="img/banner/unnamed.png" width="105px" alt="">
+    </div>
+    <div class="row">
+        <div class="img">
+            <img src="img/banner/unnamed (7).webp" width="1513px" alt="">
+        </div>
+    </div>
+    <div class="header-nav-top">
+        <div class="hnt-content">Khuyến mãi</div>
+        <div>Hệ thống Showroom</div>
+        <div>Tư vấn doanh nghiệp</div>
+        <div>Liên hệ</div>
+        <div>Tin công nghệ</div>
+    </div>
+    <div class="container">
+        <header>
+            <div class="ctn row  align-items-center ">
+                <div class="col-md-2 logo">
+                    <a href="index.html"><img src="img/logo/HAINAM ELECTRON.png" width="150px" alt=""></a>
+                </div>
+                <div class="col-md-6 input">
+                    <div class="row">
+                        <div class="col-md-10"><input type="text" class="w-100"
+                                placeholder="Nhập từ khóa tìm kiếm tại đây"></div>
+                        <div class="col"><i class="fa-solid fa-magnifying-glass"></i></div>
+                    </div>
+                </div>
+                <div class="col form">
+                    <div class="row align-items-center showTabs logginNot" style="cursor: pointer;">
+                        <div class="col-md-2">
+                            <div class="header-icon"><i class="fa-solid fa-user"></i></div>
+                        </div>
+                        <div class="col">
+                            <div class="form-reseinter-header">Đăng nhập</div>
+                            <div class="form-login-header">Đăng kí</div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="logginIn" id="logginIn">
+                        </div>
+                    </div>
+                </div>
+                <div class="col cart">
+                    <div class="row align-items-center icon_miniCart">
+                        <div class="col-md-2 ">
+                            <div class="header-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+                        </div>
+                        <div class="col">
+                            <div>Giỏ hàng của bạn</div>
+                            <div class="row">
+                                <div class="col-1">
+                                    <div class="cartNumber">(0)</div>
+                                </div>
+                                <div class="col mx-1">Sản phẩm</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="minicart">
+                        <div class="row mt-3">
+                            <div class="col-2">
+                                <div class="btn-close"></div>
+                            </div>
+                        </div>
+                        <div class="row producMiniCart">
+
+                        </div>
+                        <div class="row btn-cart">
+                            <a href="cart.html"> <button class="btn btn-primary ">Đi đến trang giỏ hàng</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </header>
+
+        <nav>
+            <div class="row mt-5">
+                <div class="col-md-2">
+                    <div class="nav-aside">
+                        <!-- BLOCK DANH MỤC CHÍNH -->
+                        <ul>
+                            <li>
+                                <a href="" class="item-container mt-1">
+                                    <div><img src="img/logo/unnamed.webp" width="25" alt=""></div>
+                                    <div>Laptop</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="item-container mt-3">
+                                    <div><img src="img/logo/unnamed (1).webp" width="25" alt=""></div>
+                                    <div>Sản phẩm Apple</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="item-container mt-3">
+                                    <div><img src="img/logo/unnamed (3).webp" width="25" alt=""></div>
+                                    <div>PC - Máy tính bộ</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="item-container mt-3">
+                                    <div><img src="img/logo/unnamed (2).webp" width="25" alt=""></div>
+                                    <div>PC - màn hình máy tính</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="item-container mt-3">
+                                    <div><img src="img/logo/unnamed (4).webp" width="25" alt=""></div>
+                                    <div>Phụ kiện</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="item-container mt-3">
+                                    <div><img src="img/logo/unnamed (5).webp" width="25" alt=""></div>
+                                    <div>Thiết bị âm thanh</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="item-container mt-3">
+                                    <div><img src="img/logo/unnamed (6).webp" width="25" alt=""></div>
+                                    <div>Game</div>
+                                </a>
+                            </li>
+                        </ul>
+                        <!-- KẾT THÚC BLOCK CHỨA DANH MỤC CHÍNH -->
+                    </div>
+                </div>
+                <!-- BLOCK CHỨA SLIDE QUẢNG CÁO  -->
+                <div class="col-md-7">
+                    <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/banner/Acer-1200-300-1200x300.png" class="d-block w-100" height="270"
+                                    alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/banner/Asus-1200-300-1200x300.png" class="d-block w-100" height="270"
+                                    alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/banner/Macbuk-Air-M2-1200-300-1200x300.png" class="d-block w-100"
+                                    height="270" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <!-- ĐÓNG BLOCK SLIDE QUẢNG CÁO -->
+                <div class="col-md-3">
+                    <div class="row banner-hv">
+                        <img src="img/banner/banner_slider_-_bottom_2_4cfe52a01f304c898e8532d8b6770548.webp" alt="">
+                    </div>
+                    <div class="row banner-hv">
+                        <img src="img/banner/banner_slider_-_right_3_369b216c1c864d3fb80dbcc1fd3cbd31.webp" alt="">
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <section>
+
+            <!-- BLOCK DANH MỤC BANNER -->
+            <div class="category-mini-icon mt-5">
+                <h3>Danh mục nổi bật</h3>
+                <div class="row load-cate">
+                    <!-- PHẦN CHỨA DANH MỤC BANNER -->
+                </div>
+            </div>
+            <!-- KẾT THÚC BLOCK DANH MỤC BANNER -->
+
+            <!-- BLOCK BANNER QUẢNG CÁO -->
+            <div class="row">
+                <div class="col-6 p-0  banner-hv"><img src="img/banner/1.webp" width="640" alt=""></div>
+                <div class="col-6 p-0  banner-hv"><img src="img/banner/2.webp" width="640" alt=""></div>
+            </div>
+            <!-- KẾT THÚC BLOCK BANNER QUẢNG CÁO -->
+
+            <!-- BLOCK FORM ĐĂNG NHẬP - ĐĂNG KÍ -->
+            <div class="bg-form">
+                <div class="row form-login_register">
+                    <div class="btn-close closeTab" style="cursor: pointer;"></div>
+                    <div id="form" class="tabs">
+                        <div class="row tabs-nav">
+                            <ul>
+                                <li class="tab-item active">
+                                    <p class="col-3 form-title">Đăng nhập</p>
+                                </li>
+                                <li class="tab-item ">
+                                    <p class="col-3 form-title">Đăng kí</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-content">
+                            <div id="form_login " class="form tab-pane active">
+                                <div class="row align-items-center">
+                                    <div class="col-md-6">
+                                        <p>Đăng nhập để theo dõi đơn hàng, lưu danh sách sản phẩm yêu thích và nhận
+                                            nhiều ưu đãi hấp dẫn </p>
+                                        <form action="" id="loginForm">
+                                            <div>
+                                                <input type="text" id="username" class="input"
+                                                    placeholder="Tên đăng nhập">
+                                                <span class="error-message" id="usernameError"></span>
+                                            </div>
+                                            <div>
+                                                <input type="password" id="password" class="input"
+                                                    placeholder="Mật khẩu">
+                                                <span class="error-message" id="passwordError"></span>
+                                            </div>
+                                            <div>
+                                                <a href="#">Bạn quên mật khẩu?</a>
+                                            </div>
+
+                                            <button type="submit">Đăng nhập</button>
+
+                                            <div class="row justify-content-center">
+                                                Hoặc đăng nhập bằng
+                                                <div class="form-login-logo">
+                                                    <img src="img/logo/fb.svg" alt="">
+                                                    <img src="img/logo/gg.svg" alt="">
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img src="img/background/235dccb09069e3d4eebc6227236f9dc2.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="form_resigter" class="form tab-pane">
+                                <div class="row align-items-center">
+                                    <div class="col-md-6">
+                                        <p>Đăng ký để theo dõi đơn hàng, lưu danh sách sản phẩm yêu thích và nhận nhiều
+                                            ưu đãi hấp dẫn</p>
+                                        <form action="" id="registerForm">
+                                            <div>
+                                                <input id="fullName" name="fullname" type="text" class="input"
+                                                    placeholder="Họ và tên">
+                                                <span class="error-message" id="fullNameError"></span>
+                                            </div>
+                                            <div>
+                                                <input id="email" name="email" type="email" class="input"
+                                                    placeholder="Email">
+                                                <span class="error-message" id="emailError"></span>
+                                            </div>
+                                            <div>
+                                                <input id="usernameDki" name="username" type="text" class="input"
+                                                    placeholder="Tên đăng nhập">
+                                                <span class="error-message" id="usernameErrorDki"></span>
+                                            </div>
+                                            <div>
+                                                <input id="passwordDki" name="password" type="password" class="input"
+                                                    placeholder="Mật khẩu">
+                                                <span class="error-message" id="passwordErrorDki"></span>
+                                            </div>
+                                            <div>
+                                                <input id="confirmPassword" name="rspassword" type="password"
+                                                    class="input" placeholder="Nhập lại mật khẩu">
+                                                <span class="error-message" id="confirmPasswordError"></span>
+                                            </div>
+                                            <div>
+                                                <a href="#form_login">Bạn đã có tài khoản? Đăng nhập ngay</a>
+                                            </div>
+                                            <div>
+                                                <button>Đăng kí</button>
+                                            </div>
+                                        </form>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <img src="img/background/368e705d45bfc8742aa9d20dbcf4c78c.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- KẾT THÚC BLOCK ĐĂNG NHẬP - ĐĂNG KÍ -->
+
+            <!-- Phần sản phẩm -->
+            <div class="row list-product load-product">
+                <!-- PHẦN CHỨA SẢN PHẨM -->
+            </div>
+            <!-- KẾT THÚC PHẦN CHỨA SẢN PHẨM -->
+
+
+        </section>
+        <!-- BLOCK THƯƠNG HIỆU SẢN PHẨM -->
+        <div class="row mt-5">
+            <div class="col-md-3 banner-hv"><a href=""><img src="img/banner/acer.webp" width="200px" alt=""></a></div>
+            <div class="col-md-3 banner-hv"><a href=""><img src="img/banner/hp.webp" width="200px" alt=""></a></div>
+            <div class="col-md-3 banner-hv"><a href=""><img src="img/banner/amad.webp" width="200px" alt=""></a></div>
+            <div class="col-md-3 banner-hv"><a href=""><img src="img/banner/intel.webp" width="200px" alt=""></a></div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-3 banner-hv"><a href=""><img src="img/banner/msi.webp" width="200px" alt=""></a></div>
+            <div class="col-md-3 banner-hv"><a href=""><img src="img/banner/samsung.webp" width="200px" alt=""></a>
+            </div>
+            <div class="col-md-3 banner-hv"><a href=""><img src="img/banner/lenovo.webp" width="200px" alt=""></a></div>
+            <div class="col-md-3 banner-hv"><a href=""><img src="img/banner/asus.webp" width="200px" alt=""></a></div>
+        </div>
+        <!-- KẾT THÚC BLOCK THƯƠNG HIỆU SẢN PHẨM -->
+
+    </div>
+    <footer class="mt-5 footer container-fluid">
+        <div class="row mt-5">
+            <div class="col-md-1"></div>
+            <div class="col-md-2 ">
+                <h6>Hỗ trợ khách hàng</h6>
+                <p>Thẻ ưu đãi</p>
+                <p>Hướng dẫn mua Online</p>
+                <p>Ưu đãi cho doanh nghiệp</p>
+                <p>Chính sách trả góp</p>
+                <p>Dịch vụ sửa chữa</p>
+            </div>
+            <div class="col-md-2 ">
+                <h6>Chính sách mua hàng</h6>
+                <p>Điều kiện giao dịch chung</p>
+                <p>Chính sách đổi trả</p>
+                <p>Chính sách thanh toán</p>
+                <p>Giao hàng và lắp đặt tại nhà</p>
+                <p>Dịch vụ lắp đặt và nâng cấp PC/Laptop tại cửa hàng & TTBH</p>
+            </div>
+            <div class="col-md-2 ">
+                <h6>Thông tin HainamELECTRON</h6>
+                <p>Giới thiệu HainamELECTRON</p>
+                <p>Hệ thống cửa hàng</p>
+                <p>Trung tâm bảo hành</p>
+                <p>Chính sách bảo mật</p>
+                <p>Tin công nghệ</p>
+                <p>Hỏi đáp</p>
+                <p>Tuyển dụng</p>
+
+            </div>
+            <div class="col-md-2 ">
+                <h6>Hỗ trợ khách hàng</h6>
+                <p>Thẻ ưu đãi</p>
+                <p>Hướng dẫn mua Online</p>
+                <p>Ưu đãi cho doanh nghiệp</p>
+                <p>Chính sách trả góp</p>
+                <p>Dịch vụ sửa chữa</p>
+            </div>
+            <div class="col-md-2 ">
+                <h6>Hỗ trợ khách hàng</h6>
+                <p>Thẻ ưu đãi</p>
+                <p>Hướng dẫn mua Online</p>
+                <p>Ưu đãi cho doanh nghiệp</p>
+                <p>Chính sách trả góp</p>
+                <p>Dịch vụ sửa chữa</p>
+            </div>
+            <div class="col-md-1"></div>
+
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="css/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/js/bootstrap.min.js"></script>
+    <!-- <script src="js/listproduct.js"></script> -->
+    <script src="js/form.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/detail.js"></script>
+    <script src="js/user.js"></script>
+</body>
+
+
+</html>

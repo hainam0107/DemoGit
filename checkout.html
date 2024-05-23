@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/0f02d3980d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="bg-miniCart">
+
+    </div>
+    <div class="row">
+        <div class="img">
+            <img src="img/banner/unnamed (7).webp" width="1513px" alt="">
+        </div>
+    </div>
+    <div class="header-nav-top">
+        <div class="hnt-content">Khuyến mãi</div>
+        <div>Hệ thống Showroom</div>
+        <div>Tư vấn doanh nghiệp</div>
+        <div>Liên hệ</div>
+        <div>Tin công nghệ</div>
+    </div>
+    <div class="container">
+        <header>
+            <div class="ctn row  align-items-center ">
+                <div class="col-md-2 logo">
+                    <a href="index.html"><img src="img/logo/HAINAM ELECTRON.png" width="150px" alt=""></a>
+
+                </div>
+                <div class="col-md-6 input">
+                    <div class="row">
+                        <div class="col-md-10"><input type="text" class="w-100"
+                                placeholder="Nhập từ khóa tìm kiếm tại đây"></div>
+                        <div class="col"><i class="fa-solid fa-magnifying-glass"></i></div>
+                    </div>
+                </div>
+                <div class="col form">
+                    <div class="row align-items-center showTabs logginNot" style="cursor: pointer;">
+                        <div class="col-md-2">
+                            <div class="header-icon"><i class="fa-solid fa-user"></i></div>
+                        </div>
+                        <div class="col">
+                            <div class="form-reseinter-header">Đăng nhập</div>
+                            <div class="form-login-header">Đăng kí</div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="logginIn" id="logginIn">
+                        </div>
+                    </div>
+                </div>
+                <div class="col cart">
+                    <div class="row align-items-center icon_miniCart">
+                        <div class="col-md-2 ">
+                            <div class="header-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+                        </div>
+                        <div class="col">
+                            <div>Giỏ hàng của bạn</div>
+                            <div class="row">
+                                <div class="col-1">
+                                    <div class="cartNumber">(0)</div>
+                                </div>
+                                <div class="col">Sản phẩm</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="minicart">
+                        <div class="row mt-3">
+                            <div class="row mt-3">
+
+                                <div class="col-2">
+                                    <div class="btn-close"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row producMiniCart">
+
+                        </div>
+                        <div class="row btn-cart">
+                            <a href="cart.html"> <button class="btn btn-primary ">Đi đến trang giỏ hàng</button></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </header>
+
+        <section>
+            <!-- BLOCK FORM ĐĂNG NHẬP - ĐĂNG KÍ -->
+            <div class="bg-form">
+                <div class="row form-login_register">
+                    <div class="btn-close closeTab" style="cursor: pointer;"></div>
+                    <div id="form" class="tabs">
+                        <div class="row tabs-nav">
+                            <ul>
+                                <li class="tab-item active">
+                                    <p class="col-3 form-title">Đăng nhập</p>
+                                </li>
+                                <li class="tab-item ">
+                                    <p class="col-3 form-title">Đăng kí</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-content">
+                            <div id="form_login " class="form tab-pane active">
+                                <div class="row align-items-center">
+                                    <div class="col-md-6">
+                                        <p>Đăng nhập để theo dõi đơn hàng, lưu danh sách sản phẩm yêu thích và nhận
+                                            nhiều ưu đãi hấp dẫn </p>
+                                        <form action="" id="loginForm">
+                                            <div>
+                                                <input type="text" id="username" class="input"
+                                                    placeholder="Tên đăng nhập">
+                                                <span class="error-message" id="usernameError"></span>
+                                            </div>
+                                            <div>
+                                                <input type="password" id="password" class="input"
+                                                    placeholder="Mật khẩu">
+                                                <span class="error-message" id="passwordError"></span>
+                                            </div>
+                                            <div>
+                                                <a href="#">Bạn quên mật khẩu?</a>
+                                            </div>
+
+                                            <button type="submit">Đăng nhập</button>
+
+                                            <div class="row justify-content-center">
+                                                Hoặc đăng nhập bằng
+                                                <div class="form-login-logo">
+                                                    <img src="img/logo/fb.svg" alt="">
+                                                    <img src="img/logo/gg.svg" alt="">
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img src="img/background/235dccb09069e3d4eebc6227236f9dc2.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="form_resigter" class="form tab-pane">
+                                <div class="row align-items-center">
+                                    <div class="col-md-6">
+                                        <p>Đăng ký để theo dõi đơn hàng, lưu danh sách sản phẩm yêu thích và nhận nhiều
+                                            ưu đãi hấp dẫn</p>
+                                        <form action="" id="registerForm">
+                                            <div>
+                                                <input id="fullName" name="fullname" type="text" class="input"
+                                                    placeholder="Họ và tên">
+                                                <span class="error-message" id="fullNameError"></span>
+                                            </div>
+                                            <div>
+                                                <input id="email" name="email" type="email" class="input"
+                                                    placeholder="Email">
+                                                <span class="error-message" id="emailError"></span>
+                                            </div>
+                                            <div>
+                                                <input id="usernameDki" name="username" type="text" class="input"
+                                                    placeholder="Tên đăng nhập">
+                                                <span class="error-message" id="usernameErrorDki"></span>
+                                            </div>
+                                            <div>
+                                                <input id="passwordDki" name="password" type="password" class="input"
+                                                    placeholder="Mật khẩu">
+                                                <span class="error-message" id="passwordErrorDki"></span>
+                                            </div>
+                                            <div>
+                                                <input id="confirmPassword" name="rspassword" type="password"
+                                                    class="input" placeholder="Nhập lại mật khẩu">
+                                                <span class="error-message" id="confirmPasswordError"></span>
+                                            </div>
+                                            <div>
+                                                <a href="#form_login">Bạn đã có tài khoản? Đăng nhập ngay</a>
+                                            </div>
+                                            <div>
+                                                <button>Đăng kí</button>
+                                            </div>
+                                        </form>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <img src="img/background/368e705d45bfc8742aa9d20dbcf4c78c.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- KẾT THÚC BLOCK ĐĂNG NHẬP - ĐĂNG KÍ -->
+
+
+
+
+            <!-- BLOCK INFORMATION -->
+            <div class="row">
+                <p class="link-title p-0"><i class="fa-solid fa-house fs-5"></i> <i class="fa-solid fa-angle-right"></i>
+                    Thanh toán</p>
+            </div>
+            <form action="" class="form mt-5" onsubmit="return validateForm()">
+                <div class="row">
+                    <!-- information_address -->
+                    <div class="col-md-7 information_address">
+                        <div class="row information_order--title">
+                            <h5 class="p-0">Địa chỉ nhận hàng</h5>
+                        </div>
+                        <div class="row">
+
+                            <div class="row mt-2">
+                                <label for="" class="p-0">Họ và tên</label>
+                                <input type="text" class="input" id="fullnameOrder">
+                                <span class="error-message p-0" id="fullnameErrorOrder"></span>
+                            </div>
+
+                            <div class="row mt-2">
+                                <label for="" class="p-0">Địa chỉ nhận hàng</label>
+                                <input type="text" class="input" id="address">
+                                <span class="error-message p-0" id="addressError"></span>
+                            </div>
+
+                            <div class="row mt-2">
+                                <div class="col-md-6 p-0">
+                                    <label for="">Email</label><br>
+                                    <input type="email" class="input" id="email_order">
+                                    <span class="error-message" id="emailErrorOrder"></span>
+                                </div>
+
+                                <div class="col-md-6" style="padding: 0 0 0 10px;">
+                                    <label for="">Số điện thoại</label><br>
+                                    <input type="text" class="input" id="phone">
+                                    <span class="error-message" id="phoneError"></span>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div class="row mt-5">
+                            <h6 class="p-0">Phương thức thanh toán</h6>
+                            <div class="row">
+                                <p class="p-0">Thông tin thanh toán của bạn sẽ luôn được bảo mật</p>
+                            </div>
+                            <div class="Pay p-0 mt-3">
+                                <div class="Payon">
+                                    <h6>Thanh toán VNPAY_QR</h6>
+                                    <p>Thanh toán qua Internet Banking, Visa, Master, VNPAY-QR</p>
+                                </div>
+                                <div class="Payon PayonActive mx-2">
+                                    <h6>Thanh toán khi nhận hàng</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-1"></div>
+                    <!-- information_order -->
+                    <div class="col-md-4 information_order">
+                        <div class="row information_order--title">
+                            <div class="col-md-8 p-0">
+                                <h5 class="p-0">Thông tin đơn hàng</h5>
+                            </div>
+                            <div class="col-md-4 "><a href="cart.html">Chỉnh sửa</a></div>
+                        </div>
+                        <div class="row mt-3 infomationOrder">
+                        </div>
+                        <div class="row">
+                            <div class="row mt-2">
+                                <p><img src="img/logo/gift-filled.png" width="20px" class="mx-2" alt="">Giảm 500.000đ
+                                    (Áp dụng cho tổng hóa đơn)</p>
+                            </div>
+                            <div class="row mt-2">
+                                <div class="col-6 p-0">Tổng tạm tính</div>
+                                <div class="col-6 totalAllPrice">0đ</div>
+                            </div>
+                            <div class="row mt-1">
+                                <div class="col-md-6 p-0">Phí giao hàng</div>
+                                <div class="col-md-6 ship fw-bold">0đ</div>
+                            </div>
+                            <div class="row mt-1 d-disCount">
+                                <div class="col-md-6 p-0">Giảm giá</div>
+                                <div class="col-md-6 disCount fw-bold">0đ</div>
+                            </div>
+                            <div class="row mt-4 ">
+                                <div class="col-md-6 p-0">Thành tiền</div>
+                                <div class="col-md-6 intoMoneyOrder text-danger fw-bold fs-5">0đ</div>
+                            </div>
+                            <div class="row w-100 mt-5 m-0 p-0">
+                                <button type="submit" id="btnOrder" class="btn btn-primary btnOrder">THANH TOÁN</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <!-- END BLOCK INFORMATION -->
+            <!-- <div class="row modalAnnouncement ">
+                <div class="btn-close p-4 btnCloseAc"></div>
+                <div class="row">
+                    <h3>Đặt hàng thành công</h3>
+                </div>
+                <div class="row imgCheck">
+                    <p><img src="img/background/check.jpg" alt=""></p>
+                </div>
+                <div class="row"><a href="index.html">Trở về trang chủ</a></div>
+            </div> -->
+        </section>
+    </div>
+    <footer class="mt-5 footer container-fluid">
+        <div class="row mt-5">
+            <div class="col-md-1"></div>
+            <div class="col-md-2 ">
+                <h6>Hỗ trợ khách hàng</h6>
+                <p>Thẻ ưu đãi</p>
+                <p>Hướng dẫn mua Online</p>
+                <p>Ưu đãi cho doanh nghiệp</p>
+                <p>Chính sách trả góp</p>
+                <p>Dịch vụ sửa chữa</p>
+            </div>
+            <div class="col-md-2 ">
+                <h6>Chính sách mua hàng</h6>
+                <p>Điều kiện giao dịch chung</p>
+                <p>Chính sách đổi trả</p>
+                <p>Chính sách thanh toán</p>
+                <p>Giao hàng và lắp đặt tại nhà</p>
+                <p>Dịch vụ lắp đặt và nâng cấp PC/Laptop tại cửa hàng & TTBH</p>
+            </div>
+            <div class="col-md-2 ">
+                <h6>Thông tin HainamELECTRON</h6>
+                <p>Giới thiệu HainamELECTRON</p>
+                <p>Hệ thống cửa hàng</p>
+                <p>Trung tâm bảo hành</p>
+                <p>Chính sách bảo mật</p>
+                <p>Tin công nghệ</p>
+                <p>Hỏi đáp</p>
+                <p>Tuyển dụng</p>
+
+            </div>
+            <div class="col-md-2 ">
+                <h6>Hỗ trợ khách hàng</h6>
+                <p>Thẻ ưu đãi</p>
+                <p>Hướng dẫn mua Online</p>
+                <p>Ưu đãi cho doanh nghiệp</p>
+                <p>Chính sách trả góp</p>
+                <p>Dịch vụ sửa chữa</p>
+            </div>
+            <div class="col-md-2 ">
+                <h6>Hỗ trợ khách hàng</h6>
+                <p>Thẻ ưu đãi</p>
+                <p>Hướng dẫn mua Online</p>
+                <p>Ưu đãi cho doanh nghiệp</p>
+                <p>Chính sách trả góp</p>
+                <p>Dịch vụ sửa chữa</p>
+            </div>
+            <div class="col-md-1"></div>
+
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="css/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/js/bootstrap.min.js"></script>
+    <!-- <script src="js/listproduct.js"></script> -->
+    <script src="js/form.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/checkout.js"></script>
+    <script src="js/user.js"></script>
+</body>
+
+
+</html>
